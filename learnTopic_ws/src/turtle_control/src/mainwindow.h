@@ -1,6 +1,3 @@
-//
-// Created by Zwhy2022 on 23-3-2.
-//
 
 #ifndef TURTLE_CONTROL_MAINWINDOW_H
 #define TURTLE_CONTROL_MAINWINDOW_H
@@ -11,15 +8,23 @@ QT_BEGIN_NAMESPACE
 
 QT_END_NAMESPACE
 
+#include "ros/ros.h"
+
 class mainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    explicit mainWindow(QWidget *parent = nullptr);
+    explicit mainWindow(ros::NodeHandle* pNode, QWidget* parent = nullptr);
 
     ~mainWindow() override;
 
 private:
+
+    void initWidgets();
+
+
+private:
+    ros::NodeHandle* pNode;
 
 };
 

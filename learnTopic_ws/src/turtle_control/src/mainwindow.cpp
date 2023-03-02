@@ -6,11 +6,22 @@
 
 #include "mainwindow.h"
 
+mainWindow::mainWindow(ros::NodeHandle* pNode,QWidget *parent) :QMainWindow(parent){
+    this->pNode = pNode;
 
-mainWindow::mainWindow(QWidget *parent) :
-        QMainWindow(parent){
+    /** Init */
+    initWidgets();
 }
 
-mainWindow::~mainWindow() {
+mainWindow::~mainWindow()
+{
+
+}
+
+void mainWindow::initWidgets() ///<
+{
+    setWindowTitle("qt_turtle_control");
+
+    resize(400,120);
 
 }
