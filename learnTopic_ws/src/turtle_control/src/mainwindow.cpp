@@ -5,6 +5,7 @@
 // You may need to build the project (run Qt uic code generator) to get "ui_mainWindow.h" resolved
 #include "mainwindow.h"
 
+
 mainWindow::mainWindow(ros::NodeHandle* pNode,QWidget *parent) :QMainWindow(parent){
     this->pNode = pNode;
 

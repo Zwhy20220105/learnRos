@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(turtle_control)
+project(turtle_control_plus)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
@@ -7,27 +7,37 @@ add_compile_options(-std=c++11)
 ## Qt need the code
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+
+include_directories(${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS})
+
+qt5_wrap_ui(UI_HEADERS ${UI_FILES})
+
 find_package(Qt5 COMPONENTS Core Gui Widgets PrintSupport)
 
-## Find catkin macros and libraries
-## if COMPONENTS list like find_package(catkin R=EQUIRED COMPONENTS xyz)
-## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
         roscpp
         rosmsg
         rospy
-        geometry_msgs
-)
+        turtlesim
+        )
 
-add_executable(turtle_control_node  src/mainwindow.cpp src/mainwindow.h src/turtle_control.cpp)
+# The first parmeter is the node name.
+add_executable(turtle_control_node_plus src/main.cpp src/mainwindow.cpp src/mainwindow.ui src/mainwindow.h)
 
-target_link_libraries(turtle_control_node
+target_link_libraries(turtle_control_node_plus
         ${catkin_LIBRARIES}
         Qt5::Core
         Qt5::Gui
         Qt5::Widgets
         Qt5::PrintSupport
         )
+
+## Find catkin macros and libraries
+## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## is used, also find other catkin packages
+
 
 
 ## System dependencies are found with CMake's conventions
@@ -119,9 +129,10 @@ target_link_libraries(turtle_control_node
 ## LIBRARIES: libraries you create in this project that dependent projects also need
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
+
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES turteControlNew
+#  LIBRARIES turtle_control_plus
 #  CATKIN_DEPENDS roscpp rosmsg rospy
 #  DEPENDS system_lib
 )
@@ -139,7 +150,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/turteControlNew.cpp
+#   src/${PROJECT_NAME}/turtle_control_plus.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -150,7 +161,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/turteControlNew_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/turtle_control_plus_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -214,7 +225,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_turteControlNew.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_turtle_control_plus.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
