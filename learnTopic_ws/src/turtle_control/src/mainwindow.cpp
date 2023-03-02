@@ -21,7 +21,9 @@ mainWindow::~mainWindow()
 void mainWindow::initWidgets() ///<
 {
     setWindowTitle("qt_turtle_control");
-
     resize(400,120);
+
+
+
 
 }
