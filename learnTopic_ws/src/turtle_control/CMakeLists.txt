@@ -18,7 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
 )
 
-add_executable(turtle_control_node src/turtle_control.cpp)
+add_executable(turtle_control_node src/turtle_control.cpp src/mainwindow.cpp src/mainwindow.h)
 
 target_link_libraries(turtle_control_node
         ${catkin_LIBRARIES}

@@ -11,8 +11,15 @@
 #include "ros/ros.h"
 
 
-int main()
+int main(int argc,char** argv)
 {
+    /** Init node  */
+    std::string strNode = "qt_turtle_ctrl";
+    ros::init(argc,argv,strNode);
 
+    QApplication app(argc,argv);
+
+
+    return app.exec();
 }
 
