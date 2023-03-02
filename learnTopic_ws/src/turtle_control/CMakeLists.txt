@@ -10,12 +10,13 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5 COMPONENTS Core Gui Widgets PrintSupport)
 
 ## Find catkin macros and libraries
-## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
+## if COMPONENTS list like find_package(catkin R=EQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rosmsg
-  rospy
+        roscpp
+        rosmsg
+        rospy
+        geometry_msgs
 )
 
 add_executable(turtle_control_node src/turtle_control.cpp src/mainwindow.cpp src/mainwindow.h)

@@ -7,11 +7,18 @@
 QT_BEGIN_NAMESPACE
 
 QT_END_NAMESPACE
+/** C++ */
+#include <iostream>
+
 /** Ros */
 #include "ros/ros.h"
+#include "geometry_msgs/Twist.h"
+
 /** Qt */
-#include "QFormLayout"
+#include <QFormLayout>
 #include <QLineEdit>
+#include <QPushButton>
+
 class mainWindow : public QMainWindow {
     Q_OBJECT
 
@@ -24,6 +31,11 @@ private:
 
     void initWidgets();
 
+    void initFunction();
+
+
+public slots:
+    void on_btn_respond_clicked();
 
 private:
     /** Ros */
@@ -31,8 +43,10 @@ private:
     ros::Publisher publisher;
 
     /** Layout */
-    QFormLayout* layout;
-    QLineEdit* editLinear;
+    QFormLayout* pLayout;
+    QLineEdit* pEditLinear;
+    QLineEdit* pEditAngular;
+    QPushButton* pSendBtn;
 
 };
 
