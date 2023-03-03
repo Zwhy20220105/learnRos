@@ -1,0 +1,2 @@
+set(option_srvs_MESSAGE_FILES "")
+set(option_srvs_SERVICE_FILES "/home/zwhy2022/learnRos/service_ws/src/option_srvs/srv/NumOption.srv")

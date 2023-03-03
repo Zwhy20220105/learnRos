@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: option_srvs
+Description: Description of option_srvs
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: message_runtime
