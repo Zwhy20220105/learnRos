@@ -12,7 +12,7 @@ set(CMAKE_AUTORCC ON)
 
 include_directories(${Qt5Core_INCLUDE_DIRS} ${Qt5Gui_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS})
 
-qt5_wrap_ui(UI_HEADERS ${UI_FILES})
+#qt5_wrap_ui(UI_HEADERS ${mainwindow.ui})
 
 find_package(Qt5 COMPONENTS Core Gui Widgets PrintSupport)
 
@@ -24,9 +24,9 @@ find_package(catkin REQUIRED COMPONENTS
         )
 
 # The first parmeter is the node name.
-add_executable(turtle_control_node_plus src/main.cpp src/mainwindow.cpp src/mainwindow.ui src/mainwindow.h)
+add_executable(turtle_node src/main.cpp src/mainwindow.cpp src/mainwindow.ui src/mainwindow.h)
 
-target_link_libraries(turtle_control_node_plus
+target_link_libraries(turtle_node
         ${catkin_LIBRARIES}
         Qt5::Core
         Qt5::Gui

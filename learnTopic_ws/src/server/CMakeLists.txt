@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(Publisher)
+project(server)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++11)
+# add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -11,15 +11,13 @@ find_package(catkin REQUIRED COMPONENTS
         roscpp
         rosmsg
         rospy
-        Zwhy_msgs
-        )
+        roscpp_tutorials
+)
+add_executable( server src/main.cpp)
 
-add_executable( publisher src/main.cpp )
-
-target_link_libraries( publisher
+target_link_libraries( server
         ${catkin_LIBRARIES}
-        )
-
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -112,7 +110,7 @@ target_link_libraries( publisher
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES Publisher
+#  LIBRARIES server
 #  CATKIN_DEPENDS roscpp rosmsg rospy
 #  DEPENDS system_lib
 )
@@ -130,7 +128,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/Publisher.cpp
+#   src/${PROJECT_NAME}/server.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -141,7 +139,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/Publisher_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/server_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -205,7 +203,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_Publisher.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_server.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

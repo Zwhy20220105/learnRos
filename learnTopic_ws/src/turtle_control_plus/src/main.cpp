@@ -24,7 +24,8 @@ int main(int argc, char **argv) {
 
     //创建窗体
     mainwindow window(&node);
-    window.show();
 
+
+    window.show();
     return app.exec();
 }

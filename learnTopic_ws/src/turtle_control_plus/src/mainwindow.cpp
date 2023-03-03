@@ -1,13 +1,10 @@
 //
 // Created by Zwhy2022 on 23-3-2.
 //
-
 // You may need to build the project (run Qt uic code generator) to get "ui_mainwindow.h" resolved
-
 
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
 
 mainwindow::mainwindow(ros::NodeHandle *node,QWidget *parent) :
         QWidget(parent), ui(new Ui::mainwindow) {
@@ -94,6 +91,18 @@ void mainwindow::on_timer_update_data()
 
 void mainwindow::on_btn_click_Send()
 {
+    ROS_DEBUG("打印的内容");
+    ROS_INFO("打印的内容");
+    ROS_WARN("打印的内容");
+    ROS_ERROR("打印的内容");
+    ROS_FATAL("打印的内容");
+
+    ROS_DEBUG_STREAM("打印的内容" << "hello");
+    ROS_INFO_STREAM("打印的内容" << "hello");
+    ROS_WARN_STREAM("打印的内容" << "hello");
+    ROS_ERROR_STREAM("打印的内容" << "hello");
+    ROS_FATAL_STREAM("打印的内容" << "hello");
+
     double linearX = editLinear->text().toDouble();
     double angularZ = editAngular->text().toDouble();
 
