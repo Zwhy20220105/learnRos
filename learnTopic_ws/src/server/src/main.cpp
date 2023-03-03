@@ -8,8 +8,8 @@
 bool callback(roscpp_tutorials::TwoInts::Request &request,roscpp_tutorials::TwoInts::Response& response)
 {
     /** request */
-    int a = request.a;
-    int b = request.b;
+    long a = request.a;
+    long b = request.b;
     /** response */
     response.sum = a + b;
 
