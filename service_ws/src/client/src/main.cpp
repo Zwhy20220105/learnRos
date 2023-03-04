@@ -9,7 +9,7 @@
 int main(int argc, char **argv)
 {
     //初始化节点
-    std::string nodeName = "my_service_client";
+    std::string nodeName = "service_client";
     ros::init(argc, argv, nodeName);
     //创建节点
     ros::NodeHandle node;
@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     // 创建Service
     roscpp_tutorials::TwoInts service;
     service.request.a = 10;
-    service.request.b = 5;
+    service.request.b = 15;
 
     //发送请求
     client.call(service);

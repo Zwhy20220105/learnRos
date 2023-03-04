@@ -13,9 +13,9 @@ find_package(catkin REQUIRED COMPONENTS
         rospy
         roscpp_tutorials
 )
-add_executable( client src/main.cpp )
+add_executable( ${PROJECT_NAME}_node src/main.cpp )
 
-target_link_libraries( client
+target_link_libraries( ${PROJECT_NAME}_node
         ${catkin_LIBRARIES}
 )
 

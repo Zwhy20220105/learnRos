@@ -235,4 +235,5 @@ fabric.properties
 .gitignore:Zone.Identifier
 .gitignore.swp
 .catkin_tools
+.idea/
 

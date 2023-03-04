@@ -57,138 +57,18 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" NO_GENERATOR="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3621ad-ad1d-4c63-baca-69ee2b9a1812" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/.idea/Publisher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/publisher/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/.idea/Subscriber.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/subscriber/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/.idea/Zwhy_msgs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/msg/Team.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/msg/Zwhy.msg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/zwhy_msgs/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/.catkin_workspace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/client/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/client/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/client/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/server/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/server/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../service_ws/src/server/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.catkin_workspace" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/.idea/turtle_control.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/src/widgets.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_object/src/widgets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/.idea/turtle_control_plus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/src/widget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/src/widget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_plus/src/widget.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/.idea/turtleControl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/package.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turtle_control_process/turtle_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../learnTopic_ws/src/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/.idea/Publisher.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Publisher/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/.idea/Subscriber.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Subscriber/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/.idea/Zwhy_msgs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/msg/Team.msg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/msg/Zwhy.msg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/Zwhy_msgs/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/client/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/client/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/client/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/server/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/server/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/server/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/.idea/turtleControl.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/src/turtle_control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtleControl/turtle_control" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/.idea/turtle_control.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/src/mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/src/mainwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control/src/turtle_control.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/package.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/src/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/src/mainwindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/src/mainwindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../learnTopic_ws/src/turtle_control_plus/src/mainwindow.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../service_ws/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../service_ws/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../service_ws/src/client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../service_ws/src/client/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../service_ws/src/client/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../service_ws/src/client/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../service_ws/src/server/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../service_ws/src/server/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../service_ws/src/server/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../service_ws/src/server/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,18 +104,23 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/zwhy2022/learnRos/service_ws/src/CMakeLists.txt",
+    "last_opened_file_path": "/home/zwhy2022/learnRos/turtlrControlTopic_ws/src/CMakeLists.txt",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "CMakeSettings",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="CMake 应用程序.turtle_control_plus_node">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -506,6 +391,8 @@
       <workItem from="1677825076936" duration="1527000" />
       <workItem from="1677831671336" duration="248000" />
       <workItem from="1677831929522" duration="962000" />
+      <workItem from="1677854096742" duration="308000" />
+      <workItem from="1677855504037" duration="57000" />
     </task>
     <servers />
   </component>
