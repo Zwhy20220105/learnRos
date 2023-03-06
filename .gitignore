@@ -238,3 +238,4 @@ fabric.properties
 .catkin*
 catkin*
 cmake
+ver
